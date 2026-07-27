@@ -1,4 +1,6 @@
 import os
+if not os.path.exists("logs"):
+    os.makedirs("logs")
 from datetime import datetime
 
 def registrar_evento(mensaje):
