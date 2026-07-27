@@ -1,0 +1,2 @@
+# Dependencias principales para Mente Creadora
+requests
