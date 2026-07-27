@@ -3,6 +3,15 @@ import os
 from datetime import datetime
 
 def obtener_conexion():
+    def obtener_conexion():
+    ruta_bd = os.path.join("database", "prospectos.db")
+    
+    # Crear carpeta si no existe
+    directorio = os.path.dirname(ruta_bd)
+    if directorio and not os.path.exists(directorio):
+        os.makedirs(directorio, exist_ok=True)
+        
+    return sqlite3.connect(ruta_bd)
     ruta_bd = os.path.join("data", "embudo.db")
     return sqlite3.connect(ruta_bd)
 
