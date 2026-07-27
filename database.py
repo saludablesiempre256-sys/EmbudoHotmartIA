@@ -3,7 +3,6 @@ import os
 from datetime import datetime
 
 def obtener_conexion():
-    def obtener_conexion():
     ruta_bd = os.path.join("database", "prospectos.db")
     
     # Crear carpeta si no existe
