@@ -29,3 +29,10 @@ def ejecutar_sistema():
 
 if __name__ == "__main__":
     ejecutar_sistema()
+    import time
+
+# Mantener el proceso vivo en el servidor
+if __name__ == "__main__":
+    print("🚀 Servidor Mente Creadora activo y escuchando 24/7...")
+    while True:
+        time.sleep(3600)  # Espera activa para mantener el bot encendido
